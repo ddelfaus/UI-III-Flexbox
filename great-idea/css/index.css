@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5 {
   
   .mi .middle-img{
   display: flex;
-  align-items: stretch;
+  /* align-items: stretch; */
   width:100%;
   }
   
@@ -185,6 +185,8 @@ h1, h2, h3, h4, h5 {
   .main-content .bottom-content {
 	margin-top: 37px;
 	display:flex; 
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
   }
   
   .main-content .bottom-content .text-content {
@@ -199,8 +201,10 @@ h1, h2, h3, h4, h5 {
   }
   
   .contact {
-	margin-top: 57px;
-	border-top: 1px solid black;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	margin-right: auto;
 	padding: 39px 10px 0;
   }
   

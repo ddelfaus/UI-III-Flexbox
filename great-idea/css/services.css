@@ -14,8 +14,8 @@
     display: flex;
 	flex-direction: row ;
 	margin: 10px;
-	justify-content: center;
-    align-items: center;
+	/* justify-content: center; */
+    /* align-items: center; */
     border-bottom: 1px solid black;
     padding: 30px
 
@@ -24,7 +24,7 @@
 .service-types{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     flex-wrap:wrap;
 }
 .body .service{
@@ -33,7 +33,7 @@
     margin: 30px;
     padding: 10px;
     border: 1px solid black;
-    background: lightblue;
+    background: #F4F3F4;
 }
 .body{
     display: flex;
@@ -63,6 +63,11 @@
 }
 li{
     margin: 10px 0;
+}
+button{
+    margin-top: 5px;
+    border-radius: 10%;
+   
 }
 /* .fflex {
 	display:flex;
