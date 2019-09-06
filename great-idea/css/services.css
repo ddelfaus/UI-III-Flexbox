@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5 {
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
-    width: 70%;
+    width: 60%;
 
 }
 .body .service{
